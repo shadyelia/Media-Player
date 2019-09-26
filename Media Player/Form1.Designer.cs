@@ -245,6 +245,7 @@
             // 
             // playList
             // 
+            this.playList.AllowDrop = true;
             this.playList.BackColor = System.Drawing.Color.Gray;
             this.playList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.playList.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

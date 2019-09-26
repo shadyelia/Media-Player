@@ -117,12 +117,13 @@ namespace Media_Player
 
         private void Browse_Click(object sender, EventArgs e)
         {
+
             string userName = System.Environment.UserName;
 
             OpenFileDialog ofd = new OpenFileDialog();
 
             ofd.InitialDirectory = @"C:\Users\" + userName + "\\Documents\\MyMusic";
-            ofd.Filter = "(mp3,wav,mp4,wmv,mpg,avi,3gp,flv)|*.mp3;*.wav;*.mp4;*.3gp;*.avi;*.mov;*.flv;*.wmv;*.mpg|all files|*.*";
+            ofd.Filter = "Songs (*.mp3;*.wav;*.mp4;*.wmv;*.mpg;*.avi;*.3gp;*.flv)|*.mp3;*.wav;*.mp4;*.wmv;*.mpg;*.avi;*.3gp;*.flv|" + "All files (*.*)|*.*";
             ofd.Multiselect = true;
 
             if (ofd.ShowDialog() == DialogResult.OK)

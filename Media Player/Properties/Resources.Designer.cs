@@ -19,7 +19,7 @@ namespace Media_Player.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -176,6 +176,16 @@ namespace Media_Player.Properties {
         internal static System.Drawing.Bitmap music_14_wallpaper_640x4801 {
             get {
                 object obj = ResourceManager.GetObject("music_14-wallpaper-640x4801", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap output_onlinepngtools {
+            get {
+                object obj = ResourceManager.GetObject("output-onlinepngtools", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
