@@ -123,6 +123,16 @@ namespace Media_Player.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gnome_panel_force_quit1 {
+            get {
+                object obj = ResourceManager.GetObject("gnome_panel_force_quit1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icons8_Ios7_Media_Controls_High_Volume {
             get {
                 object obj = ResourceManager.GetObject("Icons8-Ios7-Media-Controls-High-Volume", resourceCulture);
@@ -183,16 +193,6 @@ namespace Media_Player.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap output_onlinepngtools {
-            get {
-                object obj = ResourceManager.GetObject("output-onlinepngtools", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Oxygen_Icons_org_Oxygen_Actions_media_playback_pause {
             get {
                 object obj = ResourceManager.GetObject("Oxygen-Icons.org-Oxygen-Actions-media-playback-pause", resourceCulture);
@@ -216,6 +216,26 @@ namespace Media_Player.Properties {
         internal static System.Drawing.Bitmap Oxygen_Icons_org_Oxygen_Actions_media_playback_stop {
             get {
                 object obj = ResourceManager.GetObject("Oxygen-Icons.org-Oxygen-Actions-media-playback-stop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oxygen_Icons1 {
+            get {
+                object obj = ResourceManager.GetObject("Oxygen-Icons1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Oxygen_Icons2 {
+            get {
+                object obj = ResourceManager.GetObject("Oxygen-Icons2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -91,7 +91,6 @@
     <Content Include="images\minimize.ico" />
     <None Include="images\music_14-wallpaper-640x480.jpg" />
     <None Include="images\music_14-wallpaper-1024x1024.jpg" />
-    <None Include="images\output-onlinepngtools.png" />
     <Content Include="images\Oxygen-Icons.org-Oxygen-Actions-media-playback-pause.ico" />
     <Content Include="images\Oxygen-Icons.org-Oxygen-Actions-media-playback-start.ico" />
     <Content Include="images\Oxygen-Icons.org-Oxygen-Actions-media-playback-stop.ico" />

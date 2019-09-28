@@ -78,8 +78,6 @@
             // 
             // panel2
             // 
-            this.panel2.BackgroundImage = global::Media_Player.Properties.Resources.music_14_wallpaper_1024x10241;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(599, 399);
@@ -91,7 +89,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(18)))), ((int)(((byte)(95)))));
-            this.panel1.BackgroundImage = global::Media_Player.Properties.Resources._10;
             this.panel1.Controls.Add(this.Shuffle);
             this.panel1.Controls.Add(this.repeatallbox);
             this.panel1.Controls.Add(this.Repeatsongchecbox);
@@ -148,10 +145,11 @@
             // plusbutton
             // 
             this.plusbutton.BackColor = System.Drawing.Color.Transparent;
-            this.plusbutton.BackgroundImage = global::Media_Player.Properties.Resources._1497253714_plus_add_blue;
+            this.plusbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("plusbutton.BackgroundImage")));
             this.plusbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.plusbutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.plusbutton.Cursor = System.Windows.Forms.Cursors.PanSouth;
             this.plusbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.plusbutton.ForeColor = System.Drawing.Color.Transparent;
             this.plusbutton.Location = new System.Drawing.Point(6, 198);
             this.plusbutton.Name = "plusbutton";
             this.plusbutton.Size = new System.Drawing.Size(35, 35);
@@ -162,7 +160,7 @@
             // minusbutton
             // 
             this.minusbutton.BackColor = System.Drawing.Color.Transparent;
-            this.minusbutton.BackgroundImage = global::Media_Player.Properties.Resources._1497253719_plus_add_minus;
+            this.minusbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("minusbutton.BackgroundImage")));
             this.minusbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.minusbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.minusbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -176,11 +174,11 @@
             // prebutton
             // 
             this.prebutton.BackColor = System.Drawing.Color.Transparent;
-            this.prebutton.BackgroundImage = global::Media_Player.Properties.Resources._1497252514_previous_2;
-            this.prebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.prebutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("prebutton.BackgroundImage")));
+            this.prebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.prebutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.prebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.prebutton.Location = new System.Drawing.Point(209, 145);
+            this.prebutton.Location = new System.Drawing.Point(6, 145);
             this.prebutton.Name = "prebutton";
             this.prebutton.Size = new System.Drawing.Size(35, 35);
             this.prebutton.TabIndex = 7;
@@ -190,11 +188,11 @@
             // nextbutton
             // 
             this.nextbutton.BackColor = System.Drawing.Color.Transparent;
-            this.nextbutton.BackgroundImage = global::Media_Player.Properties.Resources._1497252512_next_2;
-            this.nextbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.nextbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nextbutton.BackgroundImage")));
+            this.nextbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.nextbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.nextbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.nextbutton.Location = new System.Drawing.Point(162, 145);
+            this.nextbutton.Location = new System.Drawing.Point(206, 145);
             this.nextbutton.Name = "nextbutton";
             this.nextbutton.Size = new System.Drawing.Size(35, 35);
             this.nextbutton.TabIndex = 6;
@@ -204,11 +202,11 @@
             // stopbutton
             // 
             this.stopbutton.BackColor = System.Drawing.Color.Transparent;
-            this.stopbutton.BackgroundImage = global::Media_Player.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_media_playback_stop;
-            this.stopbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.stopbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("stopbutton.BackgroundImage")));
+            this.stopbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.stopbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.stopbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.stopbutton.Location = new System.Drawing.Point(112, 145);
+            this.stopbutton.Location = new System.Drawing.Point(159, 145);
             this.stopbutton.Name = "stopbutton";
             this.stopbutton.Size = new System.Drawing.Size(35, 35);
             this.stopbutton.TabIndex = 5;
@@ -218,11 +216,11 @@
             // pausebutton
             // 
             this.pausebutton.BackColor = System.Drawing.Color.Transparent;
-            this.pausebutton.BackgroundImage = global::Media_Player.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_media_playback_pause;
-            this.pausebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pausebutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pausebutton.BackgroundImage")));
+            this.pausebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pausebutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pausebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.pausebutton.Location = new System.Drawing.Point(61, 145);
+            this.pausebutton.Location = new System.Drawing.Point(112, 145);
             this.pausebutton.Name = "pausebutton";
             this.pausebutton.Size = new System.Drawing.Size(35, 35);
             this.pausebutton.TabIndex = 4;
@@ -232,11 +230,11 @@
             // playbutton
             // 
             this.playbutton.BackColor = System.Drawing.Color.Transparent;
-            this.playbutton.BackgroundImage = global::Media_Player.Properties.Resources.Oxygen_Icons_org_Oxygen_Actions_media_playback_start;
-            this.playbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.playbutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("playbutton.BackgroundImage")));
+            this.playbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.playbutton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.playbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.playbutton.Location = new System.Drawing.Point(6, 145);
+            this.playbutton.Location = new System.Drawing.Point(61, 145);
             this.playbutton.Name = "playbutton";
             this.playbutton.Size = new System.Drawing.Size(35, 35);
             this.playbutton.TabIndex = 3;
@@ -279,7 +277,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::Media_Player.Properties.Resources.minimize;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Location = new System.Drawing.Point(162, 3);
@@ -291,7 +289,7 @@
             // 
             // exit
             // 
-            this.exit.BackgroundImage = global::Media_Player.Properties.Resources.gnome_panel_force_quit;
+            this.exit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("exit.BackgroundImage")));
             this.exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.exit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exit.Location = new System.Drawing.Point(200, 3);
